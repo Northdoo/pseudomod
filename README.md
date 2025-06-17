@@ -6,15 +6,13 @@ An 3D Metroidvania indie-game made by Rittz. Do i recommand it ? Yes, even if th
 
 # What this mod will have ?
 So far you have :
-- 9 Jokers (3 being legendaries)
+- 18 Jokers (3 being legendaries)
 - 1 Tarot Card
+- 1 Rare Spectral Card
 - 1 Enhancement type
 - 1 Boss Blind
 
 But of course, there will be more.
-
-# The new boss blind is just like The Wall.
-Yeah i know, i didn't found a good way YET to set the new boss blind, but i'll try to figure out something that is challenging, don't worry.
 
 # How do i instal it ?
 
