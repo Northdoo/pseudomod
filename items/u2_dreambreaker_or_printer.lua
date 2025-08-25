@@ -111,7 +111,7 @@ SMODS.Joker {
         loc_txt= {
         name = 'Dream Breaker',
         text = { "{X:mult,C:white}x15{} when there's",
-        "{C:attention}2{} hands and",
+        "{C:attention}3{} hands and",
         "{C:attention}0{} discard left"
     },},
     atlas = 'dbreaker',
@@ -132,10 +132,9 @@ SMODS.Joker {
     end,
 
 calculate = function(self, card, context)
-    if context.joker_main and G.GAME.current_round.hands_left ~= 2 and G.GAME.current_round.discards_left == 0 then
+    if context.joker_main and G.GAME.current_round.hands_left <= 3  and G.GAME.current_round.discards_left == 0 then
             return {
-        message = "x" .. card.ability.extra.xmult,
-        Xmult_mod = card.ability.extra.xmult
+        xmult = card.ability.extra.xmult
         }
     end
 end

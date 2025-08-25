@@ -10,7 +10,7 @@ key = 'regalia_clearmind',
 set = "Spectral",
 atlas = 'regalia_clearmind',
 pos = { x = 0, y = 0 },
-cost = 30,
+cost = 4,
 soul_rate = 0.0093,
 
 config = { extra = { slots = 3 } },  -- kept as-is

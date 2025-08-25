@@ -34,7 +34,7 @@ SMODS.Joker {
     end,
 
     calculate = function(self, card, context)
-            if context.before and context.scoring_name == "Three of a Kind" then
+            if context.before and context.scoring_name == "Three of a Kind" and not context.blueprint then
                 card.ability.extra.xmult = card.ability.extra.xmult + card.ability.extra.xmult_gain
                 return {
                     message = "Upgrade !",
