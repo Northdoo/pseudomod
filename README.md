@@ -6,11 +6,13 @@ An 3D Metroidvania indie-game made by Rittz. Do i recommand it ? Yes, even if th
 
 # What this mod will have ?
 So far you have :
-- 18 Jokers (3 being legendaries)
+- 27 Jokers (3 being legendaries)
 - 1 Tarot Card
 - 1 Rare Spectral Card
 - 1 Enhancement type
 - 1 Boss Blind
+- 3 Vouchers
+- 2 Poker Hands
 
 But of course, there will be more.
 
